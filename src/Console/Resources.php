@@ -19,7 +19,7 @@ class Resources extends Command
      *
      * @var string
      */
-    protected string $description = 'Create Resource & Controller for the given name';
+    protected $description = 'Create Resource & Controller for the given name';
 
     /**
      * Create a new command instance.

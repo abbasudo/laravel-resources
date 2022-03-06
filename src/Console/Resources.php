@@ -42,11 +42,7 @@ class Resources extends Command
 
         $this->call('make:resource', ['name' => $name.'Resource']);
 
-        $this->info($name.' resource created successfully!');
-
         $this->call('make:resource', ['name' => $name.'Collection']);
-
-        $this->info($name.' collection created successfully!');
 
         return 0;
     }

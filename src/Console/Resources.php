@@ -12,7 +12,7 @@ class Resources extends Command
      *
      * @var string
      */
-    protected string $signature = 'make:resources {name}';
+    protected $signature = 'make:resources {name}';
 
     /**
      * The console command description.
